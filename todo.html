@@ -1,0 +1,43 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo-List using LocalStorage</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+</head>
+
+<body>
+
+    <div id="content">
+        <div class="container">
+            <h1>Todo-List</h1>
+            <div class="row">
+                <div class="six columns">
+                    <label for="addtask">Add Task:</label>
+                    <form action="#" id="form">
+                        <label for="addtask"></label>
+                        <textarea id="addtask" class="u-full-width"></textarea>
+                        <input type="submit" class="button u-full-width button-primary" value="Add Task">
+                    </form>
+                </div>
+                <div class="six columns">
+                    <h2>All Tasks</h2>
+                    <div id="task-list"></div>
+                    <hr />
+                    <center>
+                        <h5>Completed Tasks</h5>
+                    </center>
+                    <div id="checked-list"></div>
+                </div>
+                <!--.six-->
+            </div>
+        </div>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+
+</html>
